@@ -13,19 +13,7 @@ html {
   height: 10vh;
   padding: 1rem;
   display: flex;
-  position: relative;
   background: var(--background-principal);
-}
-
-.logo {
-  height: 45px;
-  position: absolute;
-}
-
-.logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .nav-bar ul {
@@ -47,14 +35,16 @@ html {
 }
 
 .nav-bar span {
-  line-height: 1.5;
-  font-size: 1.4rem;
   padding-left: .5rem;
 }
 
-.nav-bar img {
-  width: 30px;
-  float: left;
+.nav-bar span, 
+.nav-bar i {
+  font-size: 1.4rem;
+}
+
+.nav-bar a:hover {
+  color: #f00;
 }
 
 .main {
